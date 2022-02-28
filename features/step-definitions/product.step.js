@@ -9,6 +9,8 @@ Then(/^I shall validate shopping cart as below$/, async (table) => {
   await productPage.verifyShoppingCart(table);
 });
 
+//  TESTING TEXT --- //
+
 Then(/^I shall be able to Buy the product$/, async () => {
   await productPage.buyProduct();
 });
